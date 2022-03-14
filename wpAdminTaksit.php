@@ -77,6 +77,7 @@ $deleteİnst =  $wpdb->delete( 'conference_register', array( 'id' => $data2->id 
     <td><input type="text" name="instNumber" ></td>
     <td><input type="text" name="İnstBank" ></td>
     <td><center><input type="text" name="instPrice"></center></td>
+	   <input type="hidden"  name="instStatus" value="1" />
     
 </table>
                     <br></br>
@@ -84,7 +85,7 @@ $deleteİnst =  $wpdb->delete( 'conference_register', array( 'id' => $data2->id 
                 </form>
            
         </div>
-<a href="#"><img src="iyziimage.jpeg" alt="Örnek Resim" /></a>
+
   
 
 <?php
