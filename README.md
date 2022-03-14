@@ -1,12 +1,7 @@
-**"# iyzicoTaksit" 
-Woocommerce için hazırlanmış bu modül iyzico taksit seçeneklerini yeni bir tabda gösterir.**
+**"Woocommerce İyzico Taksit Tag" 
+Tamamen ücretsiz olan bu eklenti sayesinde iyzico hesabınız da olan  taksitlendirme tablosunu otomatik olarak ürün sayfası içerisinde tag olarak göstermektedir..**
 
-**Kurulum** : indireceğiniz zip dosyasını, wordpress yönetici panelinden “Eklentiler > Yeni ekle” sayfasından yükleyerek kullanabilirsiniz.
+**Kurulum** : indireceğiniz zip dosyasını, wordpress yönetici panelinden “Eklentiler > Yeni ekle” sayfasından yükleyerek kullanabilirsiniz veya wp-content/plugins içine girerek dosyayı buraya ekleyebilirsiniz.
+kaynak dosya içerisinde config.php içinde iyzico tarafından size verilen apileri eklmeniz gereken alanlar mevcuttur.
 
-**Web Görünümü**:
-![Web Browser](https://i.imgur.com/j6xodop.png)
 
-**Mobil Görünümü**:
-
-![Mobile Browser](https://i.imgur.com/66HDsbp.jpg) 
-# iyzitaksitlendirme
