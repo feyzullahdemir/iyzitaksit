@@ -1,0 +1,250 @@
+<style>
+
+html {
+  box-sizing: border-box;
+}
+html * {
+  box-sizing: inherit;
+}
+
+.cards {
+  margin-left: 100px;
+}
+.cards:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  width: 40.5%;
+  margin-bottom: 30px;
+  border-top: 1px solid #8B0000;
+  float: left;
+}
+.card:nth-child(7n) {
+  border-right: 1px solid #8B0000;
+}
+.card__head {
+  height: 100%;
+  border-left: 1px solid #8B0000;
+  border-bottom: 2px solid #8B0000;
+  text-align: center;
+  font-weight: bold;
+  line-height: 60px;
+  letter-spacing: 2px;
+}
+.card__content {
+  position: relative;
+}
+.card__content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card__col {
+  float: left;
+  width: 50%;
+}
+.card__col--installment {
+  position: absolute;
+  right: 100%;
+  display: none;
+  width: 66px;
+}
+.card__col--installment:before {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  right: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #45d7e6;
+}
+.card:nth-child(0n + 1) .card__col--installment {
+  display: block;
+}
+.card__cell {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-left: 1px solid rgba(106, 106, 106, 0.5);
+  border-bottom: 1px solid rgba(106, 106, 106, 0.5);
+  white-space: nowrap;
+}
+.card__cell--head {
+  height: 40px;
+  line-height: 40px;
+  background-color: #d6d6d6;
+}
+.card--Bonus .card__head {
+  color: #8B0000;
+}
+.card--Bonus .card__col--default {
+  background-color: #FFFFFF;
+}
+.card--World .card__head {
+  color: #8B0000;
+}
+.card--World .card__col--default {
+  background-color: #FFFFFF;
+}
+.card--Maximum .card__head {
+  color: #8B0000;
+}
+.card--Maximum .card__col--default {
+  background-color: #FFFFFF;
+}
+.card--Axess .card__head {
+  color: #8B0000;
+}
+.card--Axess .card__col--default {
+  background-color: #FFFFFF;
+}
+.card--Cardfinans .card__head {
+  color: #8B0000;
+}
+.card--Cardfinans .card__col--default {
+  background-color: #FFFFFF;
+}
+.card--Paraf .card__head {
+  color: #8B0000;
+}
+.card--Paraf .card__col--default {
+  background-color: #FFFFFF;
+}
+.card--BankkartCombo .card__head {
+  color: #8B0000;
+}
+.card--BankkartCombo .card__col--default {
+  background-color: #FFFFFF;
+}
+@media screen and (max-width: 991px) {
+  .card {
+    width: 33.3333333333%;
+  }
+  .card .card__col--installment {
+    display: none;
+  }
+  .card:nth-child(3n + 1) .card__col--installment {
+    display: block;
+  }
+  .card:nth-child(3n) {
+    border-right: 1px solid #b4b4b4;
+  }
+}
+@media screen and (max-width: 767px) {
+  .card {
+    width: 50%;
+  }
+  .card:nth-child(n + 1) .card__col--installment {
+    display: none;
+  }
+  .card:nth-child(2n + 1) .card__col--installment {
+    display: block;
+  }
+  .card:nth-child(n + 1) {
+    border-right: none;
+  }
+  .card:nth-child(2n) {
+    border-right: 1px solid #b4b4b4;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .cards {
+    margin-left: 50px;
+  }
+
+  .card {
+    width: 100%;
+  }
+  .card__col--installment {
+    width: 50px;
+  }
+  .card:nth-child(n + 1) .card__col--installment {
+    display: block;
+  }
+  .card:nth-child(n + 1) {
+    border-right: 1px solid #b4b4b4;
+  } 
+}
+
+
+
+body{
+  font-family:arial, sans-serif; 
+  color:#444;
+}
+h2{
+  font-size:18px;
+}
+.rTable{
+  display:table;
+  width:100%;
+  border-collapse:collapse;
+}
+.rTableHeader{
+  display:table-header-group;
+  background-color:#ccc;
+}
+.rTableBody{
+  display:table-row-group;
+}
+.rTableRow{
+  display:table-row;
+  position:relative; 
+}
+.rTableRow:before,
+.rTableRow:after{
+  display:table;
+  content:"";
+}
+.rTableRow:after{
+  clear:both;
+}
+.rTableCell{
+  display:table-cell;
+  vertical-align:top;
+  padding:4px 6px;
+  border-bottom:1px solid #eee;
+}
+
+.paymentActions a {
+  display:inline-block;
+  padding:6px;
+  background:red;
+  color:white;
+  border-radius:5px;
+  font-size:12px;
+  text-decoration:none;
+}
+.paymentNotes { max-width:220px;}
+
+@media (max-width:480px){
+  .rTableHeader{
+    display:none;
+  }
+  .rTableRow{
+    display:block;
+    padding:10px;
+    border-bottom:1px solid #ccc;
+  }
+  .rTableCell{
+    display:block;
+    border:none;
+  }
+
+  .paymentInstallment {font-size:12px; display:block;}
+  .paymentDate {font-size:20px; display:block; float:left; font-weight:bold;}
+  .paymentAmount {font-size:20px; float:right; font-weight:bold;}
+  .paymentMethod {font-size:12px;display:block;float:none;clear:both;}
+  .paymentStatus {font-size:12px;position:absolute; top:10px; right:10px;}
+  .paymentNotes {font-size:12px;display:inline-block;float:left;}
+  .paymentActions {font-size:12px;display:block;float:none;clear:both}
+  .paymentActions a{display:block; text-align:center;}
+}
+
+
+</style>
