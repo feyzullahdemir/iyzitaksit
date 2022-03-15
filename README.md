@@ -1,5 +1,5 @@
 **"Woocommerce İyzico Taksit Tag" 
-Tamamen ücretsiz olan bu eklenti sayesinde iyzico hesabınız da olan  taksitlendirme tablosunu otomatik olarak ürün sayfası içerisinde tag olarak göstermektedir..
+Tamamen ücretsiz olan bu eklenti sayesinde iyzico hesabınız da olan  taksitlendirme tablosunu otomatik olarak ürün sayfası içerisinde tag olarak göstermektedir..Aynı zamanda manuel olarak admin panelinden kendinizde taksitlendirme ekleyebilirsiniz.
 **
 
 
