@@ -77,7 +77,10 @@ $deleteİnst =  $wpdb->delete( 'conference_register', array( 'id' => $data2->id 
     <td><input type="text" name="instNumber" ></td>
     <td><input type="text" name="İnstBank" ></td>
     <td><center><input type="text" name="instPrice"></center></td>
+<<<<<<< Updated upstream
 	   <input type="hidden"  name="instStatus" value="1" />
+=======
+>>>>>>> Stashed changes
     
 </table>
                     <br></br>
@@ -85,7 +88,11 @@ $deleteİnst =  $wpdb->delete( 'conference_register', array( 'id' => $data2->id 
                 </form>
            
         </div>
+<<<<<<< Updated upstream
 
+=======
+<a href="#"><img src="iyziimage.jpeg" alt="Örnek Resim" /></a>
+>>>>>>> Stashed changes
   
 
 <?php
@@ -145,4 +152,8 @@ if($ınstRate2 != $oldınstRate2)
 
 
 
+<<<<<<< Updated upstream
 ?>
+=======
+?>
+>>>>>>> Stashed changes
