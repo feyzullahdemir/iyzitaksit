@@ -20,16 +20,3 @@ kaynak dosya içerisinde config.php içinde iyzico tarafından size verilen apil
 
 ![blog-in-2-1-1024x336](https://user-images.githubusercontent.com/101548542/158347828-459b9374-e9f3-4030-af78-7647b04f0ee3.png)
 =======
-**"# iyzicoTaksit" 
-Woocommerce için hazırlanmış bu modül iyzico taksit seçeneklerini yeni bir tabda gösterir.**
-
-**Kurulum** : indireceğiniz zip dosyasını, wordpress yönetici panelinden “Eklentiler > Yeni ekle” sayfasından yükleyerek kullanabilirsiniz.
-
-**Web Görünümü**:
-![Web Browser](https://i.imgur.com/j6xodop.png)
-
-**Mobil Görünümü**:
-
-![Mobile Browser](https://i.imgur.com/66HDsbp.jpg) 
-# iyzitaksitlendirme
->>>>>>> Stashed changes
