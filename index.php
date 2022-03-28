@@ -72,7 +72,6 @@ require_once ('wpAdminTaksit.php');
 
 require_once ('wpProductTab.php');
 
-//Hook yapısına göre bir gelitiştme yapılmalı.
 IyzicoTaksitTag::getInstance();
 register_activation_hook(__FILE__ , 'iyzicoActive');
 register_deactivation_hook( __FILE__, 'iyziDeactivation' );
