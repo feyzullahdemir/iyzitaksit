@@ -3,8 +3,8 @@
 
 <?php
 /*
-Plugin Name: Taksitlendirme
-Plugin URI: https:iyzico.com
+Plugin Name: ıyzico taksitlendirme
+Plugin URI: https://wordpress.org/plugins/iyzi-taksit-new
 Description: Ürün için Taksitlendirme tablosunu gösterir
 Version: 0.0.1
 Author: Feyzullah Demir
