@@ -2,7 +2,7 @@
 Contributors: iyzico,feyzullah
 Tags: payment, ecommerce,credit card,checkout woocommerce,iyzico,wordpress ecommerce
 Tested up to: 5.8
-Stable tag: 0.1.1
+Stable tag: 0.0.1
 Requires at least: 4.7
 Requires PHP: 5.4
 License: LGPL v3.0
